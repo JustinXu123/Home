@@ -1,0 +1,408 @@
+/*Blue = element selectors, red = class selectors, light-blue = Id selectors*/
+
+/*for all text*/
+p
+{
+	text-align : justify;
+	font-size : 14pt;
+	line-height : 14pt;
+	font-family : Cambria, sans-serif;
+	color : black
+}
+/*for headings*/
+h1
+{
+	font-size : 30pt;
+	font-family : Verdana, sans-serif;
+	color : red;
+}
+h2
+{
+	color : RGB(0, 150, 50);
+}
+h3
+/* Class section */
+{
+	color : Magenta;
+}
+.center
+{
+	text-align : center;
+}
+.border
+{
+	border-color : black;
+	border-width : medium;
+	border-style : solid;
+} 
+.justify
+{
+	text-align : justify
+}
+.fixed
+{
+	background-attachment : fixed;
+}
+.backgroundpick
+{
+	background-color : black;
+	color : papayawhip;
+}
+/*Below are the most specific selectors, and will overwrite the above commands*/
+#MarginTop
+{
+	margin-top : 70px;
+	margin-bottom : 30px;
+	border : 3px solid;
+	padding : 3px;
+	width : 14em;
+	background-color : black;
+	color : #ff0000;
+}
+#MarginTop2
+{
+	margin-top : 70px;
+	margin-bottom : 30px;
+	border : 3px solid;
+	padding : 3px;
+	width : 14em;
+	background-color : lightblue;
+	color : navy;
+}
+#MarginTop3
+{
+	margin-top : 100px;
+	margin-bottom : 30px;
+	border : 3px solid;
+	padding : 3px;
+	width : 14em;
+	background-color : lightblue;
+	color : navy;
+}
+#CounterBlox-Heading2
+{
+	color : orange;
+	background-color : black;
+	font-size : 22pt;
+}
+#Awp
+{
+	margin-left : 20px;
+}
+#Seaside
+{
+	margin-left : 700px;
+	margin-top : -780px;
+	margin-bottom : 17px;
+}
+#HowToPlay
+{
+	text-align :center;
+	margin-top : 50pt;
+	background-color : black;
+	padding : 15px;
+	border : 4px solid;
+	width : 15em;
+}
+#FirstBodyText
+{
+	margin-bottom : 40pt;
+	margin-top : 15pt;
+	background-color : PaleGreen;
+	padding : 5pt;
+}
+#LinkingPages
+{
+	background-color : white;
+	padding-bottom : 10pt;
+	padding-top : 10pt;
+	border : 5px solid red;
+	color : yellow;
+	font-size : 22pt;
+	text-align : left;
+	word-spacing : 40px;
+}
+#ImageFix
+{
+    	margin-left: 30pt;  
+}
+#Justin
+{
+	font-weight : bold;
+	font-size : 14pt;
+	border : 2px solid;
+	width : 12em;
+	background-color : greenyellow;
+	padding : 7px;
+}
+#Violet
+{
+	background-color : Violet;
+	padding : 5pt;
+}
+#Reference
+{
+	text-align : center;
+	background-color : cyan;
+	padding : 5pt;
+	font-weight : bold;
+	font-size : 15pt;
+	width : 15em;
+	border : 3px solid;
+}
+#ListFix
+{
+	background-color : lightgreen;
+	margin : 12px;
+}
+#Basic
+{
+	background-color : black;
+	padding : 5px;
+	border : 2px solid;
+	width : 12em;
+}
+#AdvancedText
+{
+	background-color : LightSalmon;
+	padding : 5pt;
+}
+#BlueBest
+{
+	background-color : lightblue;
+	width : 15em;
+	border: 3px solid;
+	padding : 7px;
+	color : Orange;
+}
+#backgroundfix
+{
+	background-color : powderblue;
+	padding : 4px;
+	margin : 0pt;
+	width : 5em;
+	border : 2px solid;
+}
+#WebsiteReference
+{
+	text-align : center;
+	background-color : LightSkyBlue;
+	padding : 2px;
+	margin-top : 20pt; 
+	border : 2px solid;
+	width : 20em;
+}
+#background1
+{
+	background-color : black;
+	color : papayawhip;
+	font-weight : bold;
+	font-size : 18pt;
+	padding : 10px;
+	text-align : center;
+	width : 25em;
+}
+#Listoverwrite
+{
+	padding : 25px;
+	margin-bottom : 20pt;
+}
+#Above
+{
+	font-weight : bold;
+	margin-top : 25pt;
+	margin-bottom : 10pt;
+}
+#Below
+{
+	font-weight : bold;
+	margin-bottom : 25pt;
+}
+#Error
+{
+	font-weight : bold;
+	margin-top : 30pt;
+	margin-bottom : 10pt;
+}
+#secound
+{
+	background-color : peachpuff;
+	padding : 10pt; 
+	width : 13em;
+	border : 3pt solid;
+}
+#Dark
+{
+	color : white;
+	background-color : black;
+	border : 3px solid;
+	padding : 10pt;
+	width : 15em;
+}
+#White
+{
+	background-color : Black;
+	color : SkyBlue;
+	padding : 10px;
+	border : 3px solid;
+	width :8em;
+	margin-bottom : 30pt;
+}
+#White2
+{
+	background-color : Black;
+	color : Red;
+	margin-top : 60pt;
+	padding : 10pt;
+	border : 3px solid;
+	width : 9em;
+	font-size : 18pt;
+}
+#borderbreak
+{
+	background-color : white;
+	color : black;
+	border : 2px solid;
+	padding : 5pt;
+	margin-bottom : -20px;
+	width : 60em;
+}
+#borderbreak2
+{
+	background-color : black;
+	padding : 5pt;
+	width : 60em;
+	border : 3px solid;
+	margin-bottom : -10pt;
+	color : yellow;
+}
+#borderbreak3
+{
+	background-color : black;
+	padding : 5pt;
+	width : 60em;
+	border : 3px solid;
+	margin-top : 30pt;
+	margin-bottom : -25pt;
+	color : goldenrod;
+}
+#borderbreak4
+{
+	background-color : black;
+	padding : 5pt;
+	width : 60em;
+	border : 3px solid;
+	margin-top : 50pt;
+	margin-bottom : -40pt;
+	color : Aquamarine;
+}
+#borderbreak5
+{
+	background-color : black;
+	padding : 5pt;
+	width : 60em;
+	border : 3px solid;
+	margin-top : 65pt;
+	margin-bottom : -50pt;
+	color : Aqua;
+}
+#borderbreakfinal
+{
+	background-color : black;
+	padding : 5pt;
+	width : 60em;
+	border : 3px solid;
+	margin-top : 85pt;
+	color : Lime;
+}
+#borderbreakhonor
+{
+	background-color : black;
+	padding : 5pt;
+	width : 60em;
+	border : 3px solid;
+	color : Tomato;
+	margin-top : 30pt;
+}
+#borderbreakextra
+{
+	background-color : white;
+	color : black;
+	border : 1px solid;
+	padding : 5pt;
+	margin-bottom : -20px;
+	width : 60em;
+}
+#Top10
+{
+	font-size : 16pt;
+	background-color : black;
+	border : 2px solid;
+	width : 24em;
+	padding : 5pt;
+	margin-bottom : 30pt;
+}
+#Top10Public
+{
+	font-size : 16pt;
+	background-color : black;
+	border : 2px solid;
+	width : 37em;
+	padding : 5pt;
+	margin-bottom : 30pt;
+	color : magenta;
+	margin-top : 70pt;
+	margin-bottom : -1pt;
+}
+#Top10Teams
+{
+	background-color : Black;
+	color : Red;
+	padding : 10px;
+	border : 3px solid;
+	width : 29em;
+	margin-top : 90pt;
+	margin-bottom : 30pt;
+}
+#TeamsList
+{
+	background-color : black;
+	padding : 5pt;
+	width : 60em;
+	border : 3px solid;
+	color : yellow;
+}
+#TeamsList2
+{
+	background-color : black;
+	padding : 5pt;
+	width : 60em;
+	border : 3px solid;
+	color : goldenrod;
+}
+#TeamsList3
+{
+	background-color : black;
+	padding : 5pt;
+	width : 60em;
+	border : 3px solid;
+	color : Aquamarine;
+}
+#TeamsList4
+{
+	background-color : black;
+	padding : 5pt;
+	width : 60em;
+	border : 3px solid;
+	color : Aqua;
+}
+#TeamsList5
+{
+	background-color : black;
+	padding : 5pt;
+	width : 60em;
+	border : 3px solid;
+	color : Lime;
+}
+}
+/*End of Code*/
